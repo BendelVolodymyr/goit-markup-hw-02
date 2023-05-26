@@ -3,6 +3,7 @@ body {
     width: 1440px;
     height: 2592px;
     background: #FFFFFF;
+    margin: auto;
 }
 
 /* index.html */
@@ -23,15 +24,12 @@ body {
 
 .section-three {
     margin-bottom: 120px;
-    margin-left: 156px;
-    margin-right: 156px;
 }
 
 .section-four {
     background: #F4F4FD;
     width: 1440px;
     height: 732px;
-    top: 1548px;
 }
 
 .content-section-one {
@@ -59,9 +57,6 @@ body {
 .content-section-three {
     width: 323px;
     height: 40px;
-    left: 559px;
-    top: 1016px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -75,11 +70,6 @@ body {
 /* section four */
 
 .content-section-four {
-    width: 323px;
-    height: 40px;
-    left: 559px;
-    top: 1016px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -94,8 +84,6 @@ body {
 .content-section-four-box {
     width: 264px;
     height: 380px;
-    left: 156px;
-    top: 1780px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -104,23 +92,19 @@ body {
 .content-section-four-description {
     margin-top:32px;
     margin-bottom: 32px;
-    margin-left: 16px;
-    margin-right: 16px;
 }
 
 .content-section-four-name {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-   color: #2E2F42;
-   margin-bottom: 8px;
+    color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .contetn-section-four-profession {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -157,4 +141,9 @@ body {
     margin-left: 636px;
     margin-right: 635px;
     margin-bottom: 308px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
