@@ -1,9 +1,14 @@
+:root {
+    --color1: #FFFFFF;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     width: 1440px;
     height: 2592px;
-    background: #FFFFFF;
+    background: var(--color1);
     margin: auto;
+    color: #434455;
 }
 
 /* index.html */
@@ -18,8 +23,8 @@ body {
 
 .section-two {
     margin-bottom: 120px;
-    margin-left: 156px;
-    margin-right: 156px;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
 .section-three {
@@ -37,12 +42,13 @@ body {
     padding-right: 472px;
     padding-top: 188px;
     padding-bottom: 48px;
-    color: #FFFFFF;
+    color: var(--color1);
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
     text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;s
 }
 
 .content-section-two {
@@ -63,8 +69,8 @@ body {
     line-height: 40px;
     text-align: center;
     margin-bottom: 72px;
-    margin-left: 559px;
-    margin-right: 558px;
+    padding-left: 559px;
+    padding-right: 558px;
 }
 
 /* section four */
@@ -76,15 +82,15 @@ body {
     line-height: 40px;
     text-align: center;
     margin-bottom: 72px;
-    margin-left: 639px;
-    margin-right: 639px;
+    padding-left: 639px;
+    padding-right: 639px;
     padding-top: 120px;
 }
 
 .content-section-four-box {
     width: 264px;
     height: 380px;
-    background: #FFFFFF;
+    background: var(--color1);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
@@ -110,8 +116,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* footer */
@@ -125,6 +129,8 @@ body {
 /* Button */
 
 .buton-section-one {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
     width: 169px;
     height: 56px;
     left: 636px;
@@ -136,14 +142,31 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: var(--color1);
     text-align: center;
     margin-left: 636px;
     margin-right: 635px;
     margin-bottom: 308px;
+    
 }
 
-.team {
+.section-three-img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding-left: 156px;
+}
+
+.section-four-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    padding-left: 156px;
+}
+
+.test {
+    width: 264px;
+    height: 104px;
+    background-color: aqua;
+    display: inline-flex;
 }
