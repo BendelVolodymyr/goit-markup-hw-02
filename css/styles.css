@@ -2,6 +2,7 @@
     --color1: #FFFFFF;
     --size: 156px;
     --size-one: 24px;
+    --size-two: 40px;
 }
 
 body {
@@ -13,19 +14,35 @@ body {
     color: #434455;
 }
 
+.none {
+    text-decoration: none;
+}
+
 /* header */
 
 .header {
-    background-color: rgb(198, 135, 33);
+    display: flex;
+    background-color: var(--color1);
     width: 1440px;
     height: 72px;
     left: 0px;
     top: 0px;
+    margin-bottom: 25px;
 }
 
 .nav {
     display: flex;
-    margin-bottom: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-left: 147px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 332px;
 }
 
 .logo {
@@ -43,9 +60,14 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    text-decoration: none;
     padding-left: var(--size);
+}
+
+.hd {
     padding-top: 24px;
     padding-bottom: 24px;
+
 }
 
 .logo-web {
@@ -54,6 +76,22 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
     flex: none;
+}
+
+.address {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.address-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* section one */
@@ -218,4 +256,40 @@ body {
     width: 1440px;
     height: 312px;
     top: 2280px;
+}
+
+.footer-text {
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2420px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    padding-left: var(--size);
+}
+
+.ft {
+    padding-top: 100px;
+    margin-bottom: 16px;
+    color: #4D5AE5;
+}
+
+.logo-web-ft {
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    flex: none;
+
+}
+
+/*  */
+
+.retreat {
+    margin-right: var(--size-two);
 }
