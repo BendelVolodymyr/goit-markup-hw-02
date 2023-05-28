@@ -1,5 +1,7 @@
 :root {
     --color1: #FFFFFF;
+    --size: 156px;
+    --size-one: 24px;
 }
 
 body {
@@ -93,6 +95,11 @@ body {
     padding-right: 558px;
 }
 
+.section-three-img {
+    display: flex;
+    padding-left: var(--size);
+}
+
 /* section four */
 .section-four {
     background: #F4F4FD;
@@ -112,6 +119,41 @@ body {
     padding-top: 120px;
 }
 
+.content-section-four-text {
+    display: flex;
+    padding-left: var(--size);
+}
+
+.content-section-four-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding-top: 32px;
+}
+
+.content-section-four-profession {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.test {
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: var(--size-one);
+}
+
 /* footer */
 
 .footer {
@@ -122,10 +164,3 @@ body {
 }
 
 /* Button */
-
-
-
-.section-three-img {
-    display: flex;
-    padding-left: 156px;
-}
