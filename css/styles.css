@@ -48,14 +48,14 @@ body {
 .logo {
     width: 44px;
     height: 21px;
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800 px;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
     display: flex;
     align-items: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     flex: none;
     order: 0;
