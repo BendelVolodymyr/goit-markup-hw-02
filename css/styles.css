@@ -159,23 +159,6 @@ header li {
 
 /* section two */
 
-.section-two {
-    margin-bottom: 120px;
-    padding-right: 156px;
-    display: flex;
-}
-
-.content-section-two {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #2E2F42;
-    margin-bottom: 8px;
-    width: 264px;
-    height: 24px;
-}
-
 /* section three */
 
 .section-three {
@@ -193,6 +176,7 @@ header li {
     margin-bottom: 72px;
     padding-left: 559px;
     padding-right: 558px;
+    color: #2e2f42;
 }
 
 .section-three-box {
