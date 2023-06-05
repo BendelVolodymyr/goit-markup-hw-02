@@ -134,10 +134,10 @@ body {
 /* ========section three (content)======= */
 
 .section-three-title {
+    letter-spacing: 0.02em;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-main);
 }
@@ -171,5 +171,21 @@ body {
 
 .section-four-box-content {
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* =========footer=========== */
+
+.footer {
+    background-color: var(--color-main);
+}
+
+.footer__logo {
+    color: #f4f4fd;
+}
+
+.footer p {
+    line-height: 1.5;
+    color: #F4F4FD;
     letter-spacing: 0.02em;
 }
