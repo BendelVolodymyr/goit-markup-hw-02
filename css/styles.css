@@ -192,6 +192,7 @@ body {
 }
 
 /* =========portfolio========== */
+/* =========section content==== */
 
 .button-portfolio {
     font-family: "Roboto", sans-serif;
@@ -212,4 +213,19 @@ body {
 .button-portfolio:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-main);
+}
+
+.portfolio-content {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
