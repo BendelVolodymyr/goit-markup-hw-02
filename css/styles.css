@@ -130,3 +130,46 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-info);
 }
+
+/* ========section three (content)======= */
+
+.section-three-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-main);
+}
+
+/* =========section four (content)======== */
+
+.section-four {
+    background-color: #F4F4FD;
+}
+
+.section-four-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-main);
+}
+
+.section-four-box {
+    background-color: #FFFFFF;
+}
+
+.section-four-box-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-main);
+}
+
+.section-four-box-content {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
