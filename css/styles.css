@@ -1,6 +1,7 @@
 :root {
     --color-info: #434455;
     --color-main: #2e2f42;
+    --buton: #4d5ae5;
 }
 
 body {
@@ -188,4 +189,27 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+/* =========portfolio========== */
+
+.button-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--buton);
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.button-portfolio:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.button-portfolio:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
