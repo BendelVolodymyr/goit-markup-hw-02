@@ -1,5 +1,6 @@
 :root {
-    --cloro-address: #434455;
+    --color-address: #434455;
+    --color-wrapper: #2e2f42;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 
 
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -34,7 +35,7 @@ body {
     color: #2e2f42;
 }
 
-/* ===========NAV========== */
+/* ===========nav and address========== */
 
 .list {
     list-style: none;
@@ -56,8 +57,6 @@ body {
     color: #404bbf;
 }
 
-/* =========address======== */
-
 .address {
     font-style: normal;
 }
@@ -65,7 +64,7 @@ body {
 .address_contact {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloro-address);
+    color: var(--color-address);
 }
 
 .address_contact:hover {
@@ -74,4 +73,39 @@ body {
 
 .address_contact:focus {
     color: #404bbf;
+}
+
+/* ===========main============ */
+
+/* ========wrapper=========== */
+
+.wrapper {
+    background-color: var(--color-wrapper);
+}
+
+.wrapper-content {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.wrapper-content-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.wrapper-content-button:hover {
+    background-color: #404BBF;
+}
+
+.wrapper-content-button:focus {
+    background-color: #404BBF;
 }
