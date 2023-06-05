@@ -1,4 +1,6 @@
-:root {}
+:root {
+    --cloro-address: #434455;
+}
 
 body {
     margin: 0;
@@ -58,4 +60,18 @@ body {
 
 .address {
     font-style: normal;
+}
+
+.address_contact {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloro-address);
+}
+
+.address_contact:hover {
+    color: #404bbf;
+}
+
+.address_contact:focus {
+    color: #404bbf;
 }
