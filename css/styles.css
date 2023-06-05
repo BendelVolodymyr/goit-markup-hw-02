@@ -28,6 +28,20 @@ body {
     margin-left: 156px;
 }
 
-.studio_header {
+.header_studio_logo {
+    color: #2e2f42;
+}
+
+/* ===========NAV========== */
+
+.list {
+    list-style: none;
+}
+
+.list_studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
