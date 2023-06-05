@@ -7,16 +7,27 @@ body {
     background-color: #FFFFFF;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* header */
 
+
 .logo {
-    margin-left: 156px;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
-.logo .web {
-    color: #4D5AE5;
+.header__logo {
+    margin-left: 156px;
+}
+
+.studio_header {
+    color: #2e2f42;
 }
