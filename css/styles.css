@@ -38,10 +38,24 @@ body {
     list-style: none;
 }
 
-.list_studio {
+.list_menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.list_menu:hover {
+    color: #404bbf;
+}
+
+.list_menu:focus {
+    color: #404bbf;
+}
+
+/* =========address======== */
+
+.address {
+    font-style: normal;
 }
